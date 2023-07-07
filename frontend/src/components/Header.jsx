@@ -28,7 +28,7 @@ const Header = () => {
       <Navbar bg="dark" variant="dark" expand="md" collapseOnSelect>
         <Container>
           <LinkContainer to="/">
-            <Navbar.Brand>
+            <Navbar.Brand className="htxt">
               <img className="mx-3" src={logo} alt="TechSpot" />
               TechSpot
             </Navbar.Brand>
